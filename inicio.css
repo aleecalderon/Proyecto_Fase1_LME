@@ -4,6 +4,7 @@ body{
     background-color: rgb(241, 241, 241);
 }
 
+/*Encabezado*/
 header{
   background-color: rgb(255, 255, 255);
   display: inline-flex;
@@ -15,7 +16,48 @@ header{
   height: 70px;
   z-index: 99999;
 }
+.logo{
+    display: inline-flex;
+    }
+    
+    .logo img{
+    height: 60px;
+    margin-left: 250px;
+    }
+    
+    .encabezado{
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+    }
+    
+    .enlaces{
+        display: flex;
+        gap: 30px;
+        margin-right: 28px;
+        padding-left: 3px;
+    
+    }
+    
+    .enlaces a{
+        text-decoration: none;
+        color: rgb(218, 0, 0);
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 15px;
+        text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
+        padding-left: 30px;
+    }
+    
+    .enlaces a:hover{
+        color: rgba(155, 0, 0, 0.466);
+        transition: .4s ease;
+    }    
 
+/*contenido de inicio*/
 .imgfondo{
     width: 100%;
     height: auto;
@@ -48,6 +90,7 @@ header{
     margin-left: 18%;
 }
 
+
 section img{
     height: 250px;
     width: 200px;
@@ -61,12 +104,6 @@ section {
     padding: 20px;
     display: flex;
 }
-
-
-
-
-
-
 
 
 .logo{
@@ -108,7 +145,7 @@ margin-left: 250px;
     transition: .4s ease;
 }
 
-/*Footer*/
+
 footer{
     background: fixed;
     bottom: 0;
@@ -151,6 +188,8 @@ footer{
     color: white;
 }
 
+/*Contacto*/
+
 a {
     text-decoration: none;
   }
@@ -162,8 +201,9 @@ a {
   .nav li a{
     text-decoration: none;
     background-color: white;
-    padding: 10px 15px;
+    padding: 10px ;
     display: block;
+    
    
   }
 

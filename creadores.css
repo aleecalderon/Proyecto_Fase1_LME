@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*encabezado*/
 header{
     background-color: rgb(139, 0, 0);
     display: flex;
@@ -49,3 +50,38 @@ header{
         color: rgb(199, 0, 0);
         transition: .4s ease;
     }
+
+    a {
+        text-decoration: none;
+      }
+    
+      ul{
+        list-style: none;
+      }
+    
+      .nav li a{
+        text-decoration: none;
+        background-color: rgb(139, 0, 0);
+        padding: 10px 15px;
+        display: block;
+       
+      }
+    
+      nav > li{
+        float: left;
+      }
+    
+      .nav li ul {
+        display: none;
+        position: absolute;
+        min-height: 140px;
+        padding-top: 10px;
+        
+      }
+    
+      .nav li:hover > ul{
+        display: block;
+      }
+    
+    
+    
