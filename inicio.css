@@ -80,6 +80,7 @@ header{
 .info{
     padding-top: 350px;
     text-align: center;
+    
 }
 
 .info ul{
@@ -89,7 +90,62 @@ header{
     margin-left: 18%;
 }
 
-/*Pie de pagina*/
+
+section img{
+    height: 250px;
+    width: 200px;
+    display: flex;
+    margin-right: 50px;
+    padding-left: 75px;
+}
+
+section {
+    
+    padding: 20px;
+    display: flex;
+}
+
+
+.logo{
+display: inline-flex;
+}
+
+.logo img{
+height: 60px;
+margin-left: 250px;
+}
+
+.encabezado{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.enlaces{
+    display: flex;
+    gap: 30px;
+    margin-right: 32px;
+
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: rgb(218, 0, 0);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 15px;
+    text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
+}
+
+.enlaces a:hover{
+    color: rgba(155, 0, 0, 0.466);
+    transition: .4s ease;
+}
+
+
 footer{
     background: fixed;
     bottom: 0;
