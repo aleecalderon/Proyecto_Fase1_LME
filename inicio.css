@@ -38,6 +38,7 @@ header{
 .info{
     padding-top: 350px;
     text-align: center;
+    
 }
 
 .info ul{
@@ -46,6 +47,26 @@ header{
     text-align: justify;
     margin-left: 18%;
 }
+
+section img{
+    height: 250px;
+    width: 200px;
+    display: flex;
+    margin-right: 50px;
+    padding-left: 75px;
+}
+
+section {
+    
+    padding: 20px;
+    display: flex;
+}
+
+
+
+
+
+
 
 
 .logo{
