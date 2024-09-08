@@ -88,6 +88,8 @@ header{
     flex-direction: column;
     text-align: justify;
     margin-left: 18%;
+    
+    
 }
 
 
@@ -97,6 +99,8 @@ section img{
     display: flex;
     margin-right: 50px;
     padding-left: 75px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
 }
 
 section {

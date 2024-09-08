@@ -83,5 +83,19 @@ header{
         display: block;
       }
     
+  .creadores img{
+    height: 500px;
+    margin-left: 450px;
+    padding: 50px;
     
+  }
+
+  .creadores p{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+  }
+
+    
+  
     
